@@ -229,3 +229,12 @@ MIT
 
 [spectral-graph-core]: https://github.com/SuperInstance/spectral-graph-core
 [sheaf-cohomology]: https://github.com/SuperInstance/sheaf-cohomology
+
+## Ecosystem Integration
+
+- Detects and classifies conservation law regimes using spectral graph analysis
+- Uses `spectral-graph-core` for eigenvalue-based regime signatures
+- Integrates with `conservation-protocol` for regime-aware constraint broadcasting
+- Can trigger regime transitions that propagate across the agent fleet
+- Part of the conservation-law stack alongside `conservation-protocol` and `emergent-coupling`
+
